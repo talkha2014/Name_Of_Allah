@@ -147,7 +147,7 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 async def main() -> None:
     # Вставьте сюда ваш токен
-    application = Application.builder().token("7670671509:AAFc7dTGAs_itKU9JtzxyrnUE_fMRN0dRc8").build()
+    application = Application.builder().token("").build()
 
     application.add_handler(CommandHandler('start', start))
     application.add_handler(CallbackQueryHandler(button))
